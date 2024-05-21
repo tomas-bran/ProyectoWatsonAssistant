@@ -13,7 +13,6 @@ Este proyecto se realizó para crear un chatbot para una organización ficticia 
 ## Tecnologías Utilizadas
 
 - **Node.js:** Plataforma de desarrollo backend.
-- **Dialogflow:** Procesamiento de lenguaje natural.
 - **Twilio API:** Integración con WhatsApp.
 - **Telegram Bot API:** Integración con Telegram.
 - **Cloudant:** Base de datos para almacenamiento de datos de usuarios y eventos.

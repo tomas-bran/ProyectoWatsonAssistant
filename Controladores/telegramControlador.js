@@ -6,7 +6,7 @@ const { telegramOrquestador } = require("../Orquestadores/telegramOrquestador");
 const { watsonAdap } = require("../Adapatadores/watsonAdaptador");
 
 const telegramControlador = () => {
-  const token = "6273718710:AAFHM0g2l3866uP0OZYFlEmi1xKUbDr7qrQ";
+  const token = process.env.TELEGRAM_TOKEN;
 
   const bot = new Telegraf(token);
 
